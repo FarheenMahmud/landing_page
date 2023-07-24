@@ -5,6 +5,12 @@ body {
  
 }
 
+.Content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
 #logo {
     color: white;
 }
@@ -12,8 +18,11 @@ body {
 .Top-section {
 display: flex;
 flex-direction: row;
-justify-content: space-between;
-padding: 50px;
+flex-shrink: 0;
+margin-bottom: 20px;
+justify-content:space-between;
+align-items: baseline;
+padding: 100px;
 background-color: #1F2937;
 }
 
@@ -27,14 +36,12 @@ a {
     text-decoration: none;
 }
 
-.right-links-container {
-    display: flex;
-  flex-direction: row;
-  list-style: none;
-  padding-right: 30px;
-}
-
-right-links {
+.right-links {
     display: flex;
     flex-direction: row;
+    list-style: none;
+}
+
+a {
+    margin: 5px;
 }

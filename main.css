@@ -1,0 +1,40 @@
+
+body {
+ display: flex;
+ flex-direction: column;
+ 
+}
+
+#logo {
+    color: white;
+}
+
+.Top-section {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 50px;
+background-color: #1F2937;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+.right-links-container {
+    display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-right: 30px;
+}
+
+right-links {
+    display: flex;
+    flex-direction: row;
+}

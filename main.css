@@ -5,14 +5,11 @@ body {
  
 }
 
-.Content-container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
+
 
 #logo {
     color: white;
+    margin-left: 20px;
 }
 
 .Top-section {
@@ -22,8 +19,17 @@ flex-shrink: 0;
 margin-bottom: 20px;
 justify-content:space-between;
 align-items: baseline;
-padding: 100px;
+padding: 5px;
 background-color: #1F2937;
+
+}
+
+.Infographic-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    text-align: center;
 }
 
 li {
@@ -31,6 +37,9 @@ li {
     text-decoration: none;
 }
 
+.hook {
+    size: ;
+}
 a {
     color:white;
     text-decoration: none;
@@ -43,5 +52,6 @@ a {
 }
 
 a {
-    margin: 5px;
+    
+    margin-right: 20px;
 }

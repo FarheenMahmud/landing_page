@@ -32,6 +32,20 @@ background-color: #1F2937;
     text-align: center;
 }
 
+.box-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    display: flex;
+    padding: 50px;
+    margin: 5px;
+    background-color: rgb(234, 242, 242);
+    border-style: solid;
+    border-color: rgb(161, 182, 213);
+}
+
 li {
     list-style: none;
     text-decoration: none;

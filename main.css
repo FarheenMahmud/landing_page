@@ -35,12 +35,19 @@ background-color: #1F2937;
 .box-section{
     display: flex;
     flex-direction: row;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .box-container {
-    padding: 10 px;
+    padding: 10px;
     padding-bottom: 40px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    word-wrap: break-word; /* Add this property to allow the paragraph to wrap within the box-container */
 }
+
+
 
 .box {
     display: flex;
@@ -49,6 +56,8 @@ background-color: #1F2937;
     background-color: rgb(234, 242, 242);
     border-style: solid;
     border-color: rgb(161, 182, 213);
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 li {

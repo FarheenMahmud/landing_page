@@ -37,7 +37,7 @@ background-color: #1F2937;
     flex-direction: row;
 }
 
-.unit {
+.box-container {
     padding: 10 px;
     padding-bottom: 40px;
 }

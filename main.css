@@ -37,6 +37,11 @@ background-color: #1F2937;
     flex-direction: row;
 }
 
+.unit {
+    padding: 10 px;
+    padding-bottom: 40px;
+}
+
 .box {
     display: flex;
     padding: 50px;

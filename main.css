@@ -32,32 +32,27 @@ background-color: #1F2937;
     text-align: center;
 }
 
-.box-section{
-    display: flex;
-    flex-direction: row;
-    flex-grow: 0;
-    flex-shrink: 0;
+.box-section {
+  display: flex;
+  flex-wrap: wrap; /* Allow flex items to wrap to a new line */
 }
 
 .box-container {
-    padding: 10px;
-    padding-bottom: 40px;
-    flex-grow: 0;
-    flex-shrink: 0;
-    word-wrap: break-word;
+  padding: 10px;
+  padding-bottom: 40px;
+  flex: 0 0 calc(25% - 10px); /* Set a fixed width for each box-container (25% because there are four boxes in a row) */
+  max-width: calc(25% - 10px); /* Set a maximum width to prevent boxes from getting wider */
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+  word-wrap: break-word;
 }
 
-
-
 .box {
-    display: flex;
-    padding: 50px;
-    margin: 5px;
-    background-color: rgb(234, 242, 242);
-    border-style: solid;
-    border-color: rgb(161, 182, 213);
-    flex-grow: 0;
-    flex-shrink: 0;
+  flex: 1 0 100%; /* Let the box fill the available width within the box-container */
+  padding: 50px;
+  margin: 5px;
+  background-color: rgb(234, 242, 242);
+  border-style: solid;
+  border-color: rgb(161, 182, 213);
 }
 
 li {

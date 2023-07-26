@@ -44,7 +44,7 @@ background-color: #1F2937;
     padding-bottom: 40px;
     flex-grow: 0;
     flex-shrink: 0;
-    word-wrap: break-word; /* Add this property to allow the paragraph to wrap within the box-container */
+    word-wrap: break-word;
 }
 
 

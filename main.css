@@ -37,13 +37,14 @@ background-color: #1F2937;
 .right-links-container {
     display: flex;
     justify-content: flex-end;
-   
+   margin-left: autio;
 }
 
 .right-links {
     display: flex;
     flex-direction: row;
     list-style: none;
+    margin: 0;
 }
 
 .top-info-container {

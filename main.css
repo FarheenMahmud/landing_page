@@ -59,8 +59,13 @@ background-color: #1F2937;
 }
 
 .Quote-section{
+    display: flex;    
+    padding: 50px;
+    background-color: #e5e7eb;
+    text-align: center;
+    align-items: center;
+    
 
-    background-color: gray;
 }
 
 

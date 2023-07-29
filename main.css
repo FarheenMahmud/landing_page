@@ -35,6 +35,7 @@ background-color: #1F2937;
 .box-section {
   display: flex;
   flex-wrap: wrap; /* Allow flex items to wrap to a new line */
+  flex-shrink: 0;
 }
 
 .box-container {
@@ -44,15 +45,22 @@ background-color: #1F2937;
   max-width: calc(25% - 10px); /* Set a maximum width to prevent boxes from getting wider */
   box-sizing: border-box; /* Include padding and border in the width calculation */
   word-wrap: break-word;
+  flex-shrink: 0;
 }
 
 .box {
   flex: 1 0 100%; /* Let the box fill the available width within the box-container */
+  flex-shrink: 0;
   padding: 50px;
   margin: 5px;
   background-color: rgb(234, 242, 242);
   border-style: solid;
   border-color: rgb(161, 182, 213);
+}
+
+p {
+    display: flex;
+    flex-shrink: 0;
 }
 
 li {

@@ -19,14 +19,20 @@ body {
 
 .Top-section {
 display: flex;
-flex-direction: row;
+flex-direction: column;
 flex-shrink: 0;
 margin-bottom: 20px;
 justify-content:flex-end;
-align-items: baseline;
 padding: 5px;
 padding-bottom: 100px;
 background-color: #1F2937;
+}
+
+.upper-half {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    justify-content: space-between;
 
 }
 
@@ -34,7 +40,7 @@ background-color: #1F2937;
 .right-links-container {
     display: flex;
     justify-content: flex-end;
-   margin-left: autio;
+    padding-top: 26px;
 }
 
 .right-links {

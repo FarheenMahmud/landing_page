@@ -84,6 +84,13 @@ li {
     font-size: 20px;
     font-weight: bold;
 }
+
+.testimonial {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    font-style: italic;
+}
+
 a {
     color:white;
     text-decoration: none;

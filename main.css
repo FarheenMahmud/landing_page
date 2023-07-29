@@ -13,6 +13,12 @@ body {
   
 }
 
+.top-section-container{
+display: flex;
+flex-direction: row;
+}
+
+
 .Top-section {
 display: flex;
 flex-direction: row;

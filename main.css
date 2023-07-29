@@ -25,6 +25,17 @@ background-color: #1F2937;
 
 }
 
+.right-links-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
 .top-info-container {
     display: flex;
     flex-direction: row;
@@ -132,11 +143,7 @@ a {
     text-decoration: none;
 }
 
-.right-links {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-}
+
 
 .Bottom-section {
     display: flex;

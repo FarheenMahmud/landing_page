@@ -55,9 +55,17 @@ flex-direction: column;
 
 h1 {
     color: white;
-    padding-left: 100px;
     padding-right: 20px;
     font-family:'Times New Roman', Times, serif
+}
+
+.left-side-info-container {
+    padding-left: 100px;
+}
+
+.left-side-info {
+    display: flex;
+
 }
 
 .right-links {

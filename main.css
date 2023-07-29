@@ -58,6 +58,12 @@ background-color: #1F2937;
   border-color: rgb(161, 182, 213);
 }
 
+.Quote-section{
+
+    background-color: gray;
+}
+
+
 p {
     display: flex;
     flex-shrink: 0;

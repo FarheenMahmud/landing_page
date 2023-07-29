@@ -36,6 +36,10 @@ background-color: #1F2937;
 
 }
 
+.bottom-half {
+    display: flex;
+    flex-direction: row;
+}
 
 .right-links-container {
     display: flex;

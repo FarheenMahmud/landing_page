@@ -80,7 +80,9 @@ li {
 }
 
 .hook {
-    size:
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
 }
 a {
     color:white;

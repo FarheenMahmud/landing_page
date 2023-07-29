@@ -79,6 +79,13 @@ background-color: #1F2937;
     font-style: italic;
 }
 
+.quote_person {
+    font-size: 12px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
 
 p {
     display: flex;

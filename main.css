@@ -63,9 +63,13 @@ background-color: #1F2937;
     flex-direction: column;
     padding: 50px;
     background-color: #e5e7eb;
-    text-align: center;
     align-items: center;
+    justify-content: space-around;
+}
 
+.mission_statement {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
 }
 
 

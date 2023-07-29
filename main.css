@@ -1,8 +1,6 @@
 
 body {
- display: flex;
- flex-direction: column;
- 
+ background-color: #1F2937;
 }
 
 
@@ -24,7 +22,7 @@ flex-shrink: 0;
 margin-bottom: 20px;
 justify-content:flex-end;
 padding: 5px;
-padding-bottom: 80px;
+padding-bottom: 10px;
 background-color: #1F2937;
 }
 

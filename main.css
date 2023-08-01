@@ -50,9 +50,9 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     padding: 50px;
-   
+   color: white;
     align-items: center;
-    background-color: gray;
+    background-color: #818a9a;
 }
 
 .right-links-container {

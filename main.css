@@ -58,12 +58,15 @@ flex-direction: column;
 .right-side-container {
     display: flex;
     flex-direction: column;
+    padding-left: 80px;
 }
 
 .right-side-placeholder{
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 100px;
+    padding-left: 250px;
+    margin-right: 300px;
     
    color: white;
     background-color: #9a9881;

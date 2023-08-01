@@ -37,7 +37,8 @@ background-color: #1F2937;
 .bottom-half {
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-between;
+    ;
 }
 
 .left-side-info-container {
@@ -48,7 +49,10 @@ flex-direction: column;
 .right-side-placeholder{
     display: flex;
     flex-direction: column;
-    padding-top: 19px;
+    padding: 50px;
+   
+    align-items: center;
+    background-color: gray;
 }
 
 .right-links-container {

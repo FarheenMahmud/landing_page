@@ -25,7 +25,6 @@ body {
     background-color: #24262e; /* Set the background color for the container if needed */
 }
 
-/* Your existing CSS styles for other elements and sections */
 
 /* Remove any margin or padding from the section containers if they have any */
 .Top-section, .Quote-section, .Infographic-section, .Bottom-section {
@@ -41,7 +40,6 @@ flex-direction: column;
 flex-shrink: 0;
 margin-bottom: 20px;
 justify-content:flex-end;
-padding: 5px;
 padding-bottom: 10px;
 background-color: #24262e;
 }

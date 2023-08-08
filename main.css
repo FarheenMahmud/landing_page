@@ -243,6 +243,7 @@ li {
     font-family: 'Courier New', Courier, monospace;
     font-size: 10px;
     font-style: italic;
+    font-weight: bold;
 }
 
 
@@ -272,6 +273,8 @@ a {
     padding: 20px;
     flex-direction: column;
     background-color: rgb(248, 242, 124);
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
 }
 
 a {

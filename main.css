@@ -93,7 +93,7 @@ flex-direction: column;
 .right-links-container {
     display: flex;
     justify-content: flex-end;
-    padding-top: 26px;
+    padding-top: 10px;
 }
 
 h1 {

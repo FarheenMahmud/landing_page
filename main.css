@@ -30,7 +30,9 @@ body {
 .Top-section, .Quote-section, .Infographic-section, .Bottom-section {
     margin: 0;
     padding: 0;
+
 }
+
 
 
 
@@ -42,6 +44,7 @@ margin-bottom: 20px;
 justify-content:flex-end;
 padding-bottom: 10px;
 background-color: #24262e;
+z-index: 1;
 }
 
 .upper-half {
@@ -49,7 +52,12 @@ background-color: #24262e;
     flex-direction: row;
     flex-shrink: 0;
     justify-content: space-between;
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #24262e; /* Set the background color to match the top section's background color */
+    z-index: 1000; /* Set a higher z-index to keep it on top of other elements */
 }
 
 .bottom-half {
